@@ -1,6 +1,7 @@
 package com.kishore.app;
 
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
@@ -16,5 +17,10 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
+    }
+
+    @Test
+    public void failTest(){
+        fail("Intentionally failing test!");
     }
 }
