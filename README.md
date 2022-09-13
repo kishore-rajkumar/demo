@@ -1,3 +1,3 @@
 # demo
 
-testing jenkins build trigger from Github
+Testing jenkins build trigger from Github
