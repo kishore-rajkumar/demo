@@ -22,7 +22,7 @@ public class AppTest
 
     @Test
     public void passTest(){
-        assert(true);
+        assert(false);
     }
 
     @Test
