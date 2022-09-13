@@ -27,6 +27,6 @@ public class AppTest
 
     @Test
     public void failTest(){
-        fail("Intentionally failing to test webhook!");
+        assert(true);
     }
 }
