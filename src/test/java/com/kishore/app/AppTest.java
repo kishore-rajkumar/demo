@@ -27,6 +27,6 @@ public class AppTest
 
     @Test
     public void failTest(){
-        fail("failing test");
+        fail("failing this test");
     }
 }
